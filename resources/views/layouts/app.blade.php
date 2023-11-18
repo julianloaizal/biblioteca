@@ -37,6 +37,9 @@
                     <ul class="navbar-nav mr-auto">
 						<!--Nav Bar Hooks - Do not delete!!-->
 						<li class="nav-item">
+                            <a href="{{ url('/libros') }}" class="nav-link"><i class="fab fa-laravel text-info"></i> Libros</a> 
+                        </li>
+						<li class="nav-item">
                             <a href="{{ url('/autores') }}" class="nav-link"><i class="fab fa-laravel text-info"></i> Autores</a> 
                         </li>
                     </ul>
