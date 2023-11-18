@@ -47,28 +47,33 @@ composer install
 ### 4. Configurar el Archivo .env
     
 ```bash
-    cp .env.example .env
+cp .env.example .env
 ```
 Abre .env y configura la conexión a la base de datos y cualquier otra configuración necesaria. que esta en la raiz y sellama BD3.sql
 
 ### 5. Generar la Clave de Aplicación
     
 ```bash
-    php artisan key:generate
+php artisan key:generate
 ```
 ### 6. Ejecutar las Migraciones y Semillas
     
 ```bash
-    php artisan migrate --seed
+php artisan migrate --seed
 ```
 
 ### 7. Iniciar el Servidor
 
 ```bash
-    php artisan serve
+php artisan serve
 ```
 ### 8. Acceder al Proyecto
     
 ```bash
-    http://localhost:8000
+http://localhost:8000
 ```
+### 9. Realizado por
+
+# Julián Andres Loaiza López
+# Cristian Camilo Quirama Henao
+
