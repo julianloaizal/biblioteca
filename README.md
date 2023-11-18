@@ -7,7 +7,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# Nombre del Proyecto
 
 # Evidencia 2
 
@@ -47,29 +46,29 @@ composer install
 
 ### 4. Configurar el Archivo .env
     
-    ```bash
+```bash
     cp .env.example .env
-    ```
+```
 Abre .env y configura la conexión a la base de datos y cualquier otra configuración necesaria. que esta en la raiz y sellama BD3.sql
 
 ### 5. Generar la Clave de Aplicación
     
-    ```bash
+```bash
     php artisan key:generate
-    ```
+```
 ### 6. Ejecutar las Migraciones y Semillas
     
-    ```bash
+```bash
     php artisan migrate --seed
-    ```
+```
 
 ### 7. Iniciar el Servidor
-    
-    ```bash
+
+```bash
     php artisan serve
-    ```
+```
 ### 8. Acceder al Proyecto
     
-    ```bash
+```bash
     http://localhost:8000
-    ```
+```
